@@ -1,0 +1,21 @@
+{
+  "name": "front-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 -p 8081",
+    "test": "jasmine",
+    "compile-sass": "node-sass --watch src/sass/main.scss src/css/main.css",
+    "watch-css": "nodemon -e scss -x 'npm run compile-sass'"
+  },
+  "author": "Sergio Cordero",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "node-sass": "^4.12.0"
+  }
+}
