@@ -5,14 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server -c-1 -p 8081",
-    "test": "jasmine",
     "compile:sass": "node-sass src/sass/main.scss src/css/main.css -w"
   },
   "author": "Sergio Cordero",
   "license": "ISC",
-  "devDependencies": {
-    "jasmine": "^3.5.0"
-  },
   "dependencies": {
     "http-server": "^0.11.1",
     "node-sass": "^4.12.0"
