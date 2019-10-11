@@ -3,6 +3,7 @@
 
 <head>
   <title>GitHub browser</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:700&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="css/main.css">
@@ -10,15 +11,25 @@
 </head>
 
 <body>
-  <header>
-
+  <header class="header">
+    <div class="header-container">
+      <img src="./images/logo.svg" alt="GitHub logo" />
+      <span>GitHub<span class="browser">.browser</span></span>
+    </div>
   </header>
-  <main>
-    <input id="searchInput" placeholder="Write a GitHub username here :)">
-    <a id="searchButton">Send</a>
+  <main class="main">
+    <div class="main-container">
+      <section class="search-box">
+        <input id="search-box-input" class="input" placeholder="GitHub username :)">
+        <a id="search-box-button" class="button">Send</a>
+      </section>
+      <section class="result-box">
+        <img src="./images/main-image.png" alt="Octocat repositories" />
+      </section>
+    </div>
   </main>
-  <footer>
-
+  <footer class="footer">
+    <p>done with <span>&#10084;</span> by sergiocrol </p>
   </footer>
 </body>
 

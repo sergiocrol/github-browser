@@ -6,8 +6,7 @@
   "scripts": {
     "start": "http-server -c-1 -p 8081",
     "test": "jasmine",
-    "compile-sass": "node-sass --watch src/sass/main.scss src/css/main.css",
-    "watch-css": "nodemon -e scss -x 'npm run compile-sass'"
+    "compile:sass": "node-sass src/sass/main.scss src/css/main.css -w"
   },
   "author": "Sergio Cordero",
   "license": "ISC",

@@ -1,0 +1,32 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-primary-grey;
+}
+
+.loading {
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu:700&display=swap');
+  font-family: 'Ubuntu', sans-serif;
+  color: $color-primary-grey;
+  font-size: 4rem;
+
+  @media screen and (min-width: 768px){
+    font-size: 5rem;
+  }
+}
+
+.loading-repos {
+  color: $color-primary-grey;
+  font-size: 3rem;
+  margin: 0;
+  line-height: 36rem;
+}
+
+.empty {
+  font-size: 3.7rem;
+
+  @media screen and (min-width: 768px){
+    font-size: 4.8rem;
+  }
+}

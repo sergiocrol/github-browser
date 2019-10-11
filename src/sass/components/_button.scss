@@ -1,0 +1,16 @@
+.button {
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu:700&display=swap');
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  background-color: $color-primary-black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all .3s linear;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.521);
+    letter-spacing: 1px;
+  }
+}
