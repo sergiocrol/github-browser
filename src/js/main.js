@@ -14,7 +14,7 @@ const main = () => {
       .then(response => {
         if (response.message === 'Not Found') {
           document.querySelector('.result-box').innerHTML = `
-          <img src="./images/waldocat.png" alt="Waldocat"/>
+          <img src="src/images/waldocat.png" alt="Waldocat"/>
           <p class="empty">Does not exist :(</p>
           `;
         } else {

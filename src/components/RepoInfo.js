@@ -6,7 +6,7 @@ const RepoInfo = (repository) => {
   <a href="${html_url}">
     <section>
       <p id="repo-name">${name}</p>
-      <div><img src="./images/star.png" alt="star icon"/>${stargazers_count}<img class="fork" src="./images/fork.png" alt="fork icon"/>${forks}</div>
+      <div><img src="src/images/star.png" alt="star icon"/>${stargazers_count}<img class="fork" src="src/images/fork.png" alt="fork icon"/>${forks}</div>
     </section>
   </a>
   `;
